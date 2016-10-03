@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>はじめてのjQuery</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      $("#toggle").on("click", function(){
+        $("#target").fadeToggle("slow");
+      });
+    });
+  </script>
+</head>
+<body>
+  <div id="target"><a href="http://www.nogizaka46.com/member/detail/saitouasuka.php"><img src="写メURL" alt="当たりチャイティーヨ" width="233" height="165" border="0" /></a></div>
+  <button id="toggle">押してみ46</button>
+</body>
+</html>
